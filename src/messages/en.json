@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Amine Sghir - Full Stack Developer & Data Engineer",
+    "description": "Portfolio of Amine Sghir, Full Stack Developer & Data Engineer with 8+ years of experience in Data, AI, LLM, Python and Cloud."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "status": "Available for new projects",
+    "title": "Full Stack Developer & Data Engineer",
+    "tagline": "I design and develop innovative data and web solutions, from cloud pipelines to SaaS applications and generative AI.",
+    "cta": {
+      "contact": "Contact Me",
+      "cv": "Download CV"
+    },
+    "scroll": "Scroll"
+  },
+  "about": {
+    "badge": "About",
+    "title": {
+      "line1": "Building the future,",
+      "line2": "one line of code at a time"
+    },
+    "description": {
+      "p1": "Full Stack Developer & Data Engineer with 8+ years of experience, I combine technical expertise and entrepreneurial vision to create innovative solutions.",
+      "p2": "Reliable, innovative and passionate, I bring rigor, creativity and versatility to tackle the most ambitious challenges. I founded 3 SaaS products and helped numerous companies in their digital transformation."
+    },
+    "downloadCv": "Download CV",
+    "stats": {
+      "years": "Years of experience",
+      "saas": "SaaS created",
+      "certifications": "Certifications",
+      "mentored": "Students mentored"
+    },
+    "highlights": {
+      "title": "What sets me apart",
+      "data": {
+        "title": "Data Engineering",
+        "description": "Design of robust data pipelines on AWS and Azure. Experience with Kafka, Spark, and real-time processing."
+      },
+      "fullstack": {
+        "title": "Full Stack Development",
+        "description": "Modern web applications with Next.js, Django and FastAPI. Focus on performance and user experience."
+      },
+      "saas": {
+        "title": "SaaS Entrepreneurship",
+        "description": "3 SaaS products successfully launched: Take My Keys, Locary and Judia. From idea to product, through growth."
+      }
+    }
+  },
+  "skills": {
+    "badge": "Skills",
+    "title": {
+      "line1": "Technologies",
+      "line2": "& Expertise"
+    },
+    "subtitle": "A versatile tech stack, from data engineering to full-stack development, including generative AI.",
+    "categories": {
+      "data": {
+        "title": "Data & Databases",
+        "skills": ["Python", "Kafka", "Spark", "Pandas", "PostgreSQL", "Cassandra", "MySQL"]
+      },
+      "web": {
+        "title": "Web / Full Stack",
+        "skills": ["Django", "FastAPI", "Flask", "React.js", "Next.js", "TypeScript", "Tailwind CSS"]
+      },
+      "cloud": {
+        "title": "Cloud",
+        "skills": ["AWS S3", "AWS Glue", "AWS Lambda", "Azure", "Docker", "Kubernetes"]
+      },
+      "devops": {
+        "title": "DevOps & CI/CD",
+        "skills": ["GitHub Actions", "GitLab CI", "Jenkins", "Ansible", "Grafana", "Splunk"]
+      },
+      "ai": {
+        "title": "AI / LLM",
+        "skills": ["LangChain", "OpenAI", "Claude", "Gemini", "Prompting", "RAG"]
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "list": [
+        "AWS Certified Solutions Architect",
+        "Certified ScrumMaster",
+        "Machine Learning Specialist",
+        "Hadoop/Spark Developer"
+      ]
+    }
+  },
+  "experience": {
+    "badge": "Experience",
+    "title": {
+      "line1": "Professional",
+      "line2": "Journey"
+    },
+    "subtitle": "8+ years of experience in data, development and digital transformation consulting.",
+    "current": "Current",
+    "viewFullCv": "View Full CV",
+    "items": {
+      "engie_gems": {
+        "title": "Senior Data Engineer",
+        "company": "ENGIE GEMS",
+        "period": "Jan 2023 - Present",
+        "location": "Paris, France",
+        "description": "Design of cloud data pipelines (Azure, AWS) with CI/CD. Development of Python libraries. Time series management tool for analysts and traders.",
+        "tech": ["Azure", "AWS", "Python", "CI/CD", "TimeSeries"]
+      },
+      "klaimy": {
+        "title": "Senior Software Engineer",
+        "company": "Klaimy",
+        "period": "Jan 2025 - May 2025",
+        "location": "Paris, France",
+        "description": "From-scratch development of client application and API. React/Next.js frontend, Django backend. Queue system for AI processing.",
+        "tech": ["Next.js", "Django", "Azure", "Docker", "AI"]
+      },
+      "openclassrooms": {
+        "title": "Mentor / Evaluator",
+        "company": "OpenClassrooms",
+        "period": "Apr 2021 - Present",
+        "location": "Remote",
+        "description": "Mentoring students on Python Developer and Data Analyst tracks. Evaluation of deliverables and validation of defenses.",
+        "tech": ["Mentoring", "Python", "Data Analysis"]
+      },
+      "visian": {
+        "title": "Manager → Senior Consultant",
+        "company": "Visian",
+        "period": "Oct 2017 - Apr 2023",
+        "location": "Paris, France",
+        "description": "5+ years of digital transformation consulting. Evolution from Data Consultant to Manager with team and strategic project management.",
+        "tech": ["Consulting", "Data", "Management", "Digital Transformation"]
+      },
+      "credit_agricole": {
+        "title": "Senior Data Engineer",
+        "company": "Crédit Agricole CIB",
+        "period": "Jul 2022 - Jan 2023",
+        "location": "Paris, France",
+        "description": "Data pipelines on Dataiku and Python. Code structuring and implementation of development best practices.",
+        "tech": ["Dataiku", "Python", "Banking", "Data Pipelines"]
+      },
+      "engie_mastermind": {
+        "title": "Tech Lead / Data Engineer",
+        "company": "ENGIE",
+        "period": "Jun 2020 - Jul 2022",
+        "location": "Paris, France",
+        "description": "ETL architecture on AWS (S3, Glue, Lambda) and C3.ai. Linky/Gazpar data for energy consumption monitoring. Splunk/Grafana monitoring.",
+        "tech": ["AWS", "ETL", "C3.ai", "Tech Lead", "Energy"]
+      }
+    }
+  },
+  "projects": {
+    "badge": "Projects",
+    "title": {
+      "line1": "SaaS &",
+      "line2": "Applications"
+    },
+    "subtitle": "Products I designed and developed as founder or technical co-founder.",
+    "visitSite": "Visit Site",
+    "moreProjects": "Discover more projects on",
+    "viewGithub": "View GitHub",
+    "items": {
+      "takemykeys": {
+        "title": "Take My Keys",
+        "role": "CTO & Co-founder",
+        "description": "Concierge and rental management platform. Listing publication, guest welcome, reservation management and rent collection.",
+        "highlights": [
+          { "icon": "star", "text": "97% satisfaction" },
+          { "icon": "users", "text": "200+ members" }
+        ],
+        "tech": ["Next.js", "React", "Google Maps API", "Node.js"]
+      },
+      "locary": {
+        "title": "Locary",
+        "role": "Founder",
+        "description": "Real estate rental management SaaS with automation and AI. Bank synchronization, receipt generation, automatic reminders.",
+        "highlights": [
+          { "icon": "zap", "text": "6 AI features" },
+          { "icon": "users", "text": "2000+ banks" }
+        ],
+        "tech": ["Next.js", "Banking APIs", "WebSocket", "AI/LLM"]
+      },
+      "judia": {
+        "title": "Judia",
+        "role": "Founder",
+        "description": "Intelligent AI email assistant. Automatic organization, spam/fraud detection, response writing assistance. 100% free.",
+        "highlights": [
+          { "icon": "users", "text": "10K+ users" },
+          { "icon": "zap", "text": "2M+ emails processed" },
+          { "icon": "star", "text": "4.9/5 stars" }
+        ],
+        "tech": ["Next.js", "OpenAI", "Email APIs", "Real-time"]
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": {
+      "line1": "Let's Work",
+      "line2": "Together"
+    },
+    "subtitle": "Have a project in mind? Let's discuss how I can help you make it happen.",
+    "info": {
+      "title": "Contact Information"
+    },
+    "openTo": {
+      "title": "Open To",
+      "freelance": "Freelance Data Engineering & Full Stack missions",
+      "collab": "Technical partnerships on innovative projects",
+      "ideas": "Technical co-founder on new ventures"
+    },
+    "form": {
+      "title": "Send me a message",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What would you like to discuss?",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project or request...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with"
+  }
+}
