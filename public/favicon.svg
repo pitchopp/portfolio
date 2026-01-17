@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#grad)"/>
+
+  <!-- Letter A - clean geometric -->
+  <path
+    d="M256 80 L420 432 L352 432 L316 344 L196 344 L160 432 L92 432 L256 80 Z M256 188 L216 296 L296 296 Z"
+    fill="#ffffff"
+    fill-rule="evenodd"
+  />
+</svg>

@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react';
 import { NAV_ITEMS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 import LanguageToggle from '@/components/ui/LanguageToggle';
+import Logo from '@/components/ui/Logo';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -75,10 +76,7 @@ export default function Header() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              <span className="font-display text-xl font-bold text-cream-100 group-hover:text-cognac transition-colors duration-300">
-                AS
-              </span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cognac group-hover:w-full transition-all duration-300" />
+              <Logo size="md" className="group-hover:scale-110 transition-transform duration-300" />
             </a>
 
             {/* Desktop Navigation */}

@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 import { SOCIAL_LINKS } from '@/lib/constants';
+import Logo from '@/components/ui/Logo';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -35,9 +36,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo and copyright */}
           <div className="flex flex-col items-center md:items-start gap-2">
-            <span className="font-display text-2xl font-bold gradient-text">
-              AS
-            </span>
+            <Logo size="lg" />
             <p className="text-sm text-cream-300/50">
               © {currentYear} Amine Sghir. {t('rights')}.
             </p>
