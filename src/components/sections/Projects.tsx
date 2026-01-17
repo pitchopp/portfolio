@@ -2,7 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { ExternalLink, ArrowUpRight, Star, Users, Zap, Globe } from 'lucide-react';
+import Image from 'next/image';
+import { ExternalLink, ArrowUpRight, Star, Users, Zap } from 'lucide-react';
 import AnimatedSection, { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { PROJECTS } from '@/lib/constants';
 
@@ -11,31 +12,6 @@ const highlightIcons: Record<string, typeof Star> = {
   users: Users,
   zap: Zap,
 };
-
-function ProjectPlaceholder({
-  title,
-  color
-}: {
-  title: string;
-  color: string;
-}) {
-  return (
-    <div
-      className="absolute inset-0 flex items-center justify-center"
-      style={{ backgroundColor: `${color}15` }}
-    >
-      <div className="text-center">
-        <div
-          className="w-20 h-20 mx-auto mb-4 rounded-2xl flex items-center justify-center"
-          style={{ backgroundColor: `${color}20` }}
-        >
-          <Globe className="w-10 h-10" style={{ color }} />
-        </div>
-        <span className="text-cream/60 text-lg font-medium">{title}</span>
-      </div>
-    </div>
-  );
-}
 
 export default function Projects() {
   const t = useTranslations('projects');
@@ -83,13 +59,12 @@ export default function Projects() {
                   <div className={`grid lg:grid-cols-2 gap-0 ${isEven ? '' : 'lg:grid-flow-dense'}`}>
                     {/* Image */}
                     <div className={`relative aspect-video lg:aspect-auto lg:min-h-[400px] overflow-hidden ${isEven ? '' : 'lg:col-start-2'}`}>
-                      <div
-                        className="absolute inset-0 opacity-20"
-                        style={{ backgroundColor: project.color }}
-                      />
-                      <ProjectPlaceholder
-                        title={t(`items.${project.key}.title`)}
-                        color={project.color}
+                      <Image
+                        src={project.image}
+                        alt={t(`items.${project.key}.title`)}
+                        fill
+                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 1024px) 100vw, 50vw"
                       />
                       {/* Overlay gradient */}
                       <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent lg:hidden" />

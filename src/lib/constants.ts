@@ -63,22 +63,25 @@ export const EXPERIENCE_ITEMS = [
   { key: 'engie_mastermind', current: false },
 ] as const;
 
-// Projects with URLs
+// Projects with URLs and images
 export const PROJECTS = [
   {
     key: 'takemykeys',
     url: 'https://takemykeys.fr',
     color: '#10b981', // emerald
+    image: '/images/projects/takemykeys.png',
   },
   {
     key: 'locary',
     url: 'https://locary.fr',
     color: '#3b82f6', // blue
+    image: '/images/projects/locary.png',
   },
   {
     key: 'judia',
     url: 'https://getjudia.com',
     color: '#8b5cf6', // violet
+    image: '/images/projects/judia.png',
   },
 ] as const;
 
