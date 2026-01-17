@@ -102,6 +102,14 @@
     "current": "En cours",
     "viewFullCv": "Voir le CV complet",
     "items": {
+      "sodexo": {
+        "title": "Tech Lead & AI Engineer",
+        "company": "Sodexo",
+        "period": "Juin 2025 - Présent",
+        "location": "Paris, France",
+        "description": "Conception et développement d'une application interne basée sur les LLM pour l'extraction automatisée de données depuis des PDF fournisseurs (spec sheets). Extraction d'attributs produits et fournisseurs, maintenance d'une base de produits/articles, et classification automatique. Cas d'usage : changements de fournisseurs, vérifications diététiques (halal, bio, allergènes).",
+        "tech": ["Python", "Azure", "LLM", "Azure ML", "ADF", "Azure Foundry", "Django", "FastAPI", "Celery", "Redis", "React", "Next.js", "Docker"]
+      },
       "engie_gems": {
         "title": "Senior Data Engineer",
         "company": "ENGIE GEMS",

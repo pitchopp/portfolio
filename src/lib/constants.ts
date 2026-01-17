@@ -55,7 +55,8 @@ export const SKILL_CATEGORIES = [
 
 // Experience items (keys match translation file)
 export const EXPERIENCE_ITEMS = [
-  { key: 'engie_gems', current: true },
+  { key: 'sodexo', current: true },
+  { key: 'engie_gems', current: false },
   { key: 'klaimy', current: false },
   { key: 'openclassrooms', current: true },
   { key: 'visian', current: false },
