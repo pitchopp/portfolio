@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Amine Sghir - Full Stack Developer & Data Engineer",
-    "description": "Portfolio of Amine Sghir, Full Stack Developer & Data Engineer with 8+ years of experience in Data, AI, LLM, Python and Cloud."
+    "title": "Amine Sghir - AI Engineer & Data Specialist",
+    "description": "Portfolio of Amine Sghir, AI Engineer & Data Specialist with 8+ years of experience in Python, LLM, Cloud and Backend. Expert in generative AI and data pipelines."
   },
   "nav": {
     "about": "About",
@@ -12,8 +12,8 @@
   },
   "hero": {
     "status": "Available for new projects",
-    "title": "Full Stack Developer & Data Engineer",
-    "tagline": "I design and develop innovative data and web solutions, from cloud pipelines to SaaS applications and generative AI.",
+    "title": "AI Engineer & Data Specialist",
+    "tagline": "I design generative AI solutions and cloud data architectures, from Python development to LLMs and real-time pipelines.",
     "cta": {
       "contact": "Contact Me",
       "cv": "Download CV"
@@ -27,8 +27,8 @@
       "line2": "one line of code at a time"
     },
     "description": {
-      "p1": "Full Stack Developer & Data Engineer with 8+ years of experience, I combine technical expertise and entrepreneurial vision to create innovative solutions.",
-      "p2": "Reliable, innovative and passionate, I bring rigor, creativity and versatility to tackle the most ambitious challenges. I founded 3 SaaS products and helped numerous companies in their digital transformation."
+      "p1": "AI & Data Engineer with 8+ years of experience, I design intelligent LLM-based systems, cloud data pipelines and high-performance Python backends.",
+      "p2": "Specialized in generative AI and distributed architectures, I founded 3 SaaS products and helped numerous companies in their data-driven transformation. My expertise also covers full-stack web development."
     },
     "downloadCv": "Download CV",
     "stats": {
@@ -39,17 +39,17 @@
     },
     "highlights": {
       "title": "What sets me apart",
+      "ai": {
+        "title": "Generative AI & LLM",
+        "description": "Design of LLM-based applications (OpenAI, Claude, Gemini). RAG expertise, advanced prompting and autonomous agents."
+      },
       "data": {
-        "title": "Data Engineering",
-        "description": "Design of robust data pipelines on AWS and Azure. Experience with Kafka, Spark, and real-time processing."
+        "title": "Data & Cloud Engineering",
+        "description": "Robust data pipelines on AWS and Azure. Python, Kafka, Spark, and large-scale real-time processing."
       },
       "fullstack": {
-        "title": "Full Stack Development",
-        "description": "Modern web applications with Next.js, Django and FastAPI. Focus on performance and user experience."
-      },
-      "saas": {
-        "title": "SaaS Entrepreneurship",
-        "description": "3 SaaS products successfully launched: Take My Keys, Locary and Judia. From idea to product, through growth."
+        "title": "Backend & Full Stack",
+        "description": "High-performance APIs with Django and FastAPI. Modern web applications with Next.js when the project requires it."
       }
     }
   },
@@ -59,27 +59,27 @@
       "line1": "Technologies",
       "line2": "& Expertise"
     },
-    "subtitle": "A versatile tech stack, from data engineering to full-stack development, including generative AI.",
+    "subtitle": "Python and generative AI expert, from data engineering to cloud architectures, with solid full-stack experience.",
     "categories": {
-      "data": {
-        "title": "Data & Databases",
-        "skills": ["Python", "Kafka", "Spark", "Pandas", "PostgreSQL", "Cassandra", "MySQL"]
+      "ai": {
+        "title": "Generative AI & LLM",
+        "skills": ["LangChain", "OpenAI", "Claude", "Gemini", "RAG", "Agents", "Prompting"]
       },
-      "web": {
-        "title": "Web / Full Stack",
-        "skills": ["Django", "FastAPI", "Flask", "React.js", "Next.js", "TypeScript", "Tailwind CSS"]
+      "backend": {
+        "title": "Python & Backend",
+        "skills": ["Python", "Django", "FastAPI", "Flask", "Celery", "Redis", "REST APIs"]
+      },
+      "data": {
+        "title": "Data Engineering",
+        "skills": ["Kafka", "Spark", "Pandas", "PostgreSQL", "Cassandra", "ETL", "TimeSeries"]
       },
       "cloud": {
-        "title": "Cloud",
-        "skills": ["AWS S3", "AWS Glue", "AWS Lambda", "Azure", "Docker", "Kubernetes"]
+        "title": "Cloud & DevOps",
+        "skills": ["AWS", "Azure", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Terraform"]
       },
-      "devops": {
-        "title": "DevOps & CI/CD",
-        "skills": ["GitHub Actions", "GitLab CI", "Jenkins", "Ansible", "Grafana", "Splunk"]
-      },
-      "ai": {
-        "title": "AI / LLM",
-        "skills": ["LangChain", "OpenAI", "Claude", "Gemini", "Prompting", "RAG"]
+      "web": {
+        "title": "Frontend / Full Stack",
+        "skills": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"]
       }
     },
     "certifications": {
@@ -98,7 +98,7 @@
       "line1": "Professional",
       "line2": "Journey"
     },
-    "subtitle": "8+ years of experience in data, development and digital transformation consulting.",
+    "subtitle": "8+ years of experience in AI, data engineering, Python and cloud architectures.",
     "current": "Current",
     "viewFullCv": "View Full CV",
     "items": {
@@ -107,56 +107,56 @@
         "company": "Sodexo",
         "period": "Jun 2025 - Present",
         "location": "Paris, France",
-        "description": "Design and development of an internal LLM-based application for automated data extraction from supplier PDFs (spec sheets). Product and supplier attribute extraction, product/article database maintenance, and automatic classification. Use cases: supplier changes, dietary compliance verification (halal, organic, allergens).",
-        "tech": ["Python", "Azure", "LLM", "Azure ML", "ADF", "Azure Foundry", "Django", "FastAPI", "Celery", "Redis", "React", "Next.js", "Docker"]
+        "description": "Architecture and development of an LLM-based AI platform for intelligent data extraction from supplier documents. Python/Celery pipeline for async processing, Azure ML integration and automated extraction agents.",
+        "tech": ["Python", "LLM", "Azure ML", "Celery", "Redis", "Django", "FastAPI", "Docker"]
       },
       "engie_gems": {
         "title": "Senior Data Engineer",
         "company": "ENGIE GEMS",
         "period": "Jan 2023 - Present",
         "location": "Paris, France",
-        "description": "Design of cloud data pipelines (Azure, AWS) with CI/CD. Development of Python libraries. Time series management tool for analysts and traders.",
-        "tech": ["Azure", "AWS", "Python", "CI/CD", "TimeSeries"]
+        "description": "Cloud data pipeline architecture (Azure, AWS) with CI/CD orchestration. Development of reusable Python libraries. Time series management system for energy trading.",
+        "tech": ["Python", "Azure", "AWS", "CI/CD", "TimeSeries", "Data Pipelines"]
       },
       "klaimy": {
-        "title": "Senior Software Engineer",
+        "title": "Senior AI & Backend Engineer",
         "company": "Klaimy",
         "period": "Jan 2025 - May 2025",
         "location": "Paris, France",
-        "description": "From-scratch development of client application and API. React/Next.js frontend, Django backend. Queue system for AI processing.",
-        "tech": ["Next.js", "Django", "Azure", "Docker", "AI"]
+        "description": "From-scratch design of Python backend API (Django) with queue system for async AI processing. ML model integration and Azure cloud deployment.",
+        "tech": ["Python", "Django", "AI/ML", "Azure", "Docker", "Celery"]
       },
       "openclassrooms": {
-        "title": "Mentor / Evaluator",
+        "title": "Python & Data Mentor",
         "company": "OpenClassrooms",
         "period": "Apr 2021 - Present",
         "location": "Remote",
-        "description": "Mentoring students on Python Developer and Data Analyst tracks. Evaluation of deliverables and validation of defenses.",
-        "tech": ["Mentoring", "Python", "Data Analysis"]
-      },
-      "visian": {
-        "title": "Manager → Senior Consultant",
-        "company": "Visian",
-        "period": "Oct 2017 - Apr 2023",
-        "location": "Paris, France",
-        "description": "5+ years of digital transformation consulting. Evolution from Data Consultant to Manager with team and strategic project management.",
-        "tech": ["Consulting", "Data", "Management", "Digital Transformation"]
-      },
-      "credit_agricole": {
-        "title": "Senior Data Engineer",
-        "company": "Crédit Agricole CIB",
-        "period": "Jul 2022 - Jan 2023",
-        "location": "Paris, France",
-        "description": "Data pipelines on Dataiku and Python. Code structuring and implementation of development best practices.",
-        "tech": ["Dataiku", "Python", "Banking", "Data Pipelines"]
+        "description": "Mentoring on Python Developer and Data Analyst tracks. Technical guidance in Python, data science and development best practices.",
+        "tech": ["Python", "Data Analysis", "Mentoring", "Machine Learning"]
       },
       "engie_mastermind": {
         "title": "Tech Lead / Data Engineer",
         "company": "ENGIE",
         "period": "Jun 2020 - Jul 2022",
         "location": "Paris, France",
-        "description": "ETL architecture on AWS (S3, Glue, Lambda) and C3.ai. Linky/Gazpar data for energy consumption monitoring. Splunk/Grafana monitoring.",
-        "tech": ["AWS", "ETL", "C3.ai", "Tech Lead", "Energy"]
+        "description": "Serverless ETL architecture on AWS (S3, Glue, Lambda) and C3.ai platform. Large-scale Linky/Gazpar data processing. Splunk/Grafana monitoring.",
+        "tech": ["Python", "AWS", "ETL", "C3.ai", "Serverless", "Data Pipelines"]
+      },
+      "credit_agricole": {
+        "title": "Senior Data Engineer",
+        "company": "Crédit Agricole CIB",
+        "period": "Jul 2022 - Jan 2023",
+        "location": "Paris, France",
+        "description": "Data pipeline development on Dataiku with Python. Code refactoring and industrialization. Implementation of data development standards.",
+        "tech": ["Python", "Dataiku", "Data Pipelines", "Banking"]
+      },
+      "visian": {
+        "title": "Manager → Senior Consultant",
+        "company": "Visian",
+        "period": "Oct 2017 - Apr 2023",
+        "location": "Paris, France",
+        "description": "5+ years of data and digital transformation consulting. Evolution from Data Consultant to Manager. Team management and strategic data project leadership.",
+        "tech": ["Data Strategy", "Python", "Management", "Consulting"]
       }
     }
   },
@@ -216,8 +216,8 @@
     },
     "openTo": {
       "title": "Open To",
-      "freelance": "Freelance Data Engineering & Full Stack missions",
-      "collab": "Technical partnerships on innovative projects",
+      "freelance": "Freelance AI, Data Engineering & Python missions",
+      "collab": "Innovative generative AI and LLM projects",
       "ideas": "Technical co-founder on new ventures"
     },
     "form": {

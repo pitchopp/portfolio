@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Database, Globe, Cloud, GitBranch, Brain, LucideIcon } from 'lucide-react';
+import { Database, Globe, Cloud, Code, Brain, LucideIcon } from 'lucide-react';
 import AnimatedSection, { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { SKILL_CATEGORIES } from '@/lib/constants';
 
@@ -10,7 +10,7 @@ const iconMap: Record<string, LucideIcon> = {
   Database,
   Globe,
   Cloud,
-  GitBranch,
+  Code,
   Brain,
 };
 

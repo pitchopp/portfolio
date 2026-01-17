@@ -27,13 +27,18 @@ export const NAV_ITEMS = [
 // Skill categories with icons
 export const SKILL_CATEGORIES = [
   {
-    id: 'data',
-    icon: 'Database',
+    id: 'ai',
+    icon: 'Brain',
+    color: '#ec4899', // pink
+  },
+  {
+    id: 'backend',
+    icon: 'Code',
     color: '#3b82f6', // blue
   },
   {
-    id: 'web',
-    icon: 'Globe',
+    id: 'data',
+    icon: 'Database',
     color: '#10b981', // emerald
   },
   {
@@ -42,14 +47,9 @@ export const SKILL_CATEGORIES = [
     color: '#f59e0b', // amber
   },
   {
-    id: 'devops',
-    icon: 'GitBranch',
+    id: 'web',
+    icon: 'Globe',
     color: '#8b5cf6', // violet
-  },
-  {
-    id: 'ai',
-    icon: 'Brain',
-    color: '#ec4899', // pink
   },
 ] as const;
 

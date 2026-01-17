@@ -100,6 +100,12 @@ export default function About() {
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
+                <h4 className="text-cognac font-medium mb-2">{t('highlights.ai.title')}</h4>
+                <p className="text-cream/50 text-sm leading-relaxed">
+                  {t('highlights.ai.description')}
+                </p>
+              </div>
+              <div>
                 <h4 className="text-cognac font-medium mb-2">{t('highlights.data.title')}</h4>
                 <p className="text-cream/50 text-sm leading-relaxed">
                   {t('highlights.data.description')}
@@ -109,12 +115,6 @@ export default function About() {
                 <h4 className="text-cognac font-medium mb-2">{t('highlights.fullstack.title')}</h4>
                 <p className="text-cream/50 text-sm leading-relaxed">
                   {t('highlights.fullstack.description')}
-                </p>
-              </div>
-              <div>
-                <h4 className="text-cognac font-medium mb-2">{t('highlights.saas.title')}</h4>
-                <p className="text-cream/50 text-sm leading-relaxed">
-                  {t('highlights.saas.description')}
                 </p>
               </div>
             </div>
