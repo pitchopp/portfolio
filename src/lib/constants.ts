@@ -80,7 +80,7 @@ export const PROJECTS = [
   },
   {
     key: 'judia',
-    url: 'https://getjudia.com',
+    url: 'https://judia.pitchop.com',
     color: '#8b5cf6', // violet
     image: '/images/projects/judia.png',
   },

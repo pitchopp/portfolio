@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'takemykeys.fr' },
       { protocol: 'https', hostname: 'locary.fr' },
-      { protocol: 'https', hostname: 'getjudia.com' },
+      { protocol: 'https', hostname: 'judia.pitchop.com' },
     ],
   },
 };
