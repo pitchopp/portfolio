@@ -54,14 +54,16 @@ export const SKILL_CATEGORIES = [
 ] as const;
 
 // Experience items (keys match translation file)
+// Strict reverse chronological order
 export const EXPERIENCE_ITEMS = [
   { key: 'sodexo', current: true },
   { key: 'engie_gems', current: false },
   { key: 'klaimy', current: false },
   { key: 'openclassrooms', current: true },
-  { key: 'visian', current: false },
   { key: 'credit_agricole', current: false },
   { key: 'engie_mastermind', current: false },
+  { key: 'lyxor', current: false },
+  { key: 'visian', current: false },
 ] as const;
 
 // Projects with URLs and images

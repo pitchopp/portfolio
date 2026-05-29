@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Amine Sghir - AI Engineer & Data Specialist",
-    "description": "Portfolio of Amine Sghir, AI Engineer & Data Specialist with 8+ years of experience in Python, LLM, Cloud and Backend. Expert in generative AI and data pipelines."
+    "description": "Portfolio of Amine Sghir, AI Engineer & Data Specialist with 9+ years of experience in Python, LLM, Cloud and Backend. Expert in generative AI and data pipelines."
   },
   "nav": {
     "about": "About",
@@ -27,7 +27,7 @@
       "line2": "one line of code at a time"
     },
     "description": {
-      "p1": "AI & Data Engineer with 8+ years of experience, I design intelligent LLM-based systems, cloud data pipelines and high-performance Python backends.",
+      "p1": "AI & Data Engineer with 9+ years of experience, I design intelligent LLM-based systems, cloud data pipelines and high-performance Python backends.",
       "p2": "Specialized in generative AI and distributed architectures, I founded 3 SaaS products and helped numerous companies in their data-driven transformation. My expertise also covers full-stack web development."
     },
     "downloadCv": "Download CV",
@@ -88,7 +88,8 @@
         "AWS Certified Solutions Architect",
         "Certified ScrumMaster",
         "Machine Learning Specialist",
-        "Hadoop/Spark Developer"
+        "Hadoop/Spark Developer",
+        "Project Management"
       ]
     }
   },
@@ -98,7 +99,7 @@
       "line1": "Professional",
       "line2": "Journey"
     },
-    "subtitle": "8+ years of experience in AI, data engineering, Python and cloud architectures.",
+    "subtitle": "9+ years of experience in AI, data engineering, Python and cloud architectures.",
     "current": "Current",
     "viewFullCv": "View Full CV",
     "items": {
@@ -107,13 +108,13 @@
         "company": "Sodexo",
         "period": "Jun 2025 - Present",
         "location": "Paris, France",
-        "description": "Architecture and development of an LLM-based AI platform for intelligent data extraction from supplier documents. Python/Celery pipeline for async processing, Azure ML integration and automated extraction agents.",
-        "tech": ["Python", "LLM", "Azure ML", "Celery", "Redis", "Django", "FastAPI", "Docker"]
+        "description": "Tech Lead of project Pegasus within the global Data Factory. From-scratch redesign of an LLM extraction platform (multi-language supplier PDFs): migration from an AMLS workflow to a UI + API REST + async workers architecture. Multi-step pipeline with evaluation system (retry/vote, LLM-as-judge, per-attribute confidence).",
+        "tech": ["Python", "LLM", "Azure OpenAI", "LangChain", "Next.js", "React", "Django", "Celery", "PostgreSQL", "Docker"]
       },
       "engie_gems": {
         "title": "Senior Data Engineer",
         "company": "ENGIE GEMS",
-        "period": "Jan 2023 - Present",
+        "period": "Jan 2023 - May 2025",
         "location": "Paris, France",
         "description": "Cloud data pipeline architecture (Azure, AWS) with CI/CD orchestration. Development of reusable Python libraries. Time series management system for energy trading.",
         "tech": ["Python", "Azure", "AWS", "CI/CD", "TimeSeries", "Data Pipelines"]
@@ -139,8 +140,8 @@
         "company": "ENGIE",
         "period": "Jun 2020 - Jul 2022",
         "location": "Paris, France",
-        "description": "Serverless ETL architecture on AWS (S3, Glue, Lambda) and C3.ai platform. Large-scale Linky/Gazpar data processing. Splunk/Grafana monitoring.",
-        "tech": ["Python", "AWS", "ETL", "C3.ai", "Serverless", "Data Pipelines"]
+        "description": "MASTERMIND project: optimizing residential energy consumption through Linky/Gazpar smart meters. Serverless ETL architecture on AWS (S3, Glue, Lambda) and C3.ai platform. Splunk/Grafana monitoring. Team of 11, SAFe Agile.",
+        "tech": ["Python", "AWS", "ETL", "C3.ai", "Serverless", "PySpark", "Splunk", "Grafana"]
       },
       "credit_agricole": {
         "title": "Senior Data Engineer",
@@ -150,12 +151,20 @@
         "description": "Data pipeline development on Dataiku with Python. Code refactoring and industrialization. Implementation of data development standards.",
         "tech": ["Python", "Dataiku", "Data Pipelines", "Banking"]
       },
+      "lyxor": {
+        "title": "Data Engineer & Data Scientist",
+        "company": "Lyxor Asset Management",
+        "period": "Dec 2017 - Jun 2019",
+        "location": "Paris La Défense, France",
+        "description": "Rebuilding of a financial data master system (transactions, clients, products). Automated AMF regulatory reporting, Tableau dashboards, text mining and clustering for client tagging.",
+        "tech": ["Python", "Pandas", "Scikit-learn", "Tableau", "Banking"]
+      },
       "visian": {
-        "title": "Manager → Senior Consultant",
+        "title": "Manager",
         "company": "Visian",
         "period": "Oct 2017 - Apr 2023",
         "location": "Paris, France",
-        "description": "5+ years of data and digital transformation consulting. Evolution from Data Consultant to Manager. Team management and strategic data project leadership.",
+        "description": "5+ years of data and digital transformation consulting. Progression from Data Consultant → Senior Consultant → Manager. Team management and strategic data project leadership.",
         "tech": ["Data Strategy", "Python", "Management", "Consulting"]
       }
     }
@@ -196,9 +205,8 @@
         "role": "Founder",
         "description": "Intelligent AI email assistant. Automatic organization, spam/fraud detection, response writing assistance. 100% free.",
         "highlights": [
-          { "icon": "users", "text": "10K+ users" },
-          { "icon": "zap", "text": "2M+ emails processed" },
-          { "icon": "star", "text": "4.9/5 stars" }
+          { "icon": "zap", "text": "AI spam/fraud detection" },
+          { "icon": "star", "text": "100% free" }
         ],
         "tech": ["Next.js", "OpenAI", "Email APIs", "Real-time"]
       }

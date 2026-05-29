@@ -7,9 +7,9 @@ import AnimatedSection, { StaggerContainer, StaggerItem } from '@/components/ui/
 import { CV_URL } from '@/lib/constants';
 
 const stats = [
-  { key: 'years', icon: Briefcase, value: '8+' },
+  { key: 'years', icon: Briefcase, value: '9+' },
   { key: 'saas', icon: Rocket, value: '3' },
-  { key: 'certifications', icon: Award, value: '4' },
+  { key: 'certifications', icon: Award, value: '5' },
   { key: 'mentored', icon: Users, value: '50+' },
 ];
 
