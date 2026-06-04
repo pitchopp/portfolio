@@ -247,5 +247,45 @@
   "footer": {
     "rights": "Tous droits réservés",
     "builtWith": "Conçu avec"
+  },
+  "cvPage": {
+    "metadata": {
+      "title": "CV – Amine Sghir",
+      "description": "Téléchargez les différentes versions du CV d'Amine Sghir : AI/LLM Engineer ou Data Engineer, en 1 page ATS ou 2 pages détaillé."
+    },
+    "badge": "CV",
+    "title": {
+      "line1": "Mon CV en",
+      "line2": "plusieurs versions"
+    },
+    "subtitle": "Deux profils ciblés (AI/LLM Engineer, Data Engineer), chacun en version 1 page ATS-friendly ou 2 pages détaillé. Choisissez celui qui colle à votre besoin.",
+    "variants": {
+      "a-llm": {
+        "title": "AI / LLM Engineer",
+        "subtitle": "Premier plan : GenAI, agents, RAG, LLM en production",
+        "description": "CV positionné Senior AI/LLM Engineer : Tech Lead sur Pegasus (Sodexo), conception et évaluation LLM en production, expérience LLM chez Klaimy, intégration GenAI sur SaaS personnels."
+      },
+      "b-data": {
+        "title": "Senior Data Engineer",
+        "subtitle": "Premier plan : pipelines cloud, timeseries, ETL serverless",
+        "description": "CV positionné Senior Data Engineer : ENGIE GEMS (trading énergie, timeseries), ENGIE MASTERMIND (ETL serverless AWS, Linky/Gazpar), Lyxor (référentiel financier, AMF), avec l'angle AI/LLM en complément."
+      }
+    },
+    "formats": {
+      "2p": {
+        "label": "2 pages détaillé",
+        "badge": "avec photo",
+        "useCase": "Candidatures directes, envoi par email, partage LinkedIn"
+      },
+      "1p": {
+        "label": "1 page ATS",
+        "badge": "sans photo",
+        "useCase": "Plateformes Malt, Welcome to the Jungle, LinkedIn Easy Apply, ATS internes"
+      }
+    },
+    "cta": {
+      "preview": "Aperçu",
+      "download": "Télécharger"
+    }
   }
 }

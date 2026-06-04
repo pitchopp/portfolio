@@ -1,15 +1,14 @@
 'use client';
 
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Building2, Calendar, MapPin, ExternalLink } from 'lucide-react';
 import AnimatedSection from '@/components/ui/AnimatedSection';
-import { EXPERIENCE_ITEMS, getCvUrl } from '@/lib/constants';
+import { EXPERIENCE_ITEMS } from '@/lib/constants';
+import { Link } from '@/i18n/navigation';
 
 export default function Experience() {
   const t = useTranslations('experience');
-  const locale = useLocale();
-  const cvUrl = getCvUrl(locale);
 
   return (
     <section id="experience" className="relative py-24 lg:py-32">
@@ -128,15 +127,10 @@ export default function Experience() {
 
         {/* View Full CV CTA */}
         <AnimatedSection delay={0.5} className="mt-12 text-center">
-          <a
-            href={cvUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-secondary group"
-          >
+          <Link href="/cv" className="btn btn-secondary group">
             {t('viewFullCv')}
             <ExternalLink className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </Link>
         </AnimatedSection>
       </div>
     </section>

@@ -1,15 +1,14 @@
 'use client';
 
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { ArrowDown, Mail, FileText, MapPin, Sparkles } from 'lucide-react';
-import { LOCATION, getCvUrl } from '@/lib/constants';
+import { LOCATION } from '@/lib/constants';
+import { Link } from '@/i18n/navigation';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const locale = useLocale();
-  const cvUrl = getCvUrl(locale);
 
   return (
     <section
@@ -123,15 +122,10 @@ export default function Hero() {
                 {t('cta.contact')}
                 <Sparkles className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
-              <a
-                href={cvUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-secondary"
-              >
+              <Link href="/cv" className="btn btn-secondary">
                 <FileText className="w-4 h-4" />
                 {t('cta.cv')}
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 

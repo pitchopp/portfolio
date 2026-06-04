@@ -1,10 +1,10 @@
 'use client';
 
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { FileText, Briefcase, Rocket, Award, Users } from 'lucide-react';
 import AnimatedSection, { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-import { getCvUrl } from '@/lib/constants';
+import { Link } from '@/i18n/navigation';
 
 const stats = [
   { key: 'years', icon: Briefcase, value: '10+' },
@@ -15,8 +15,6 @@ const stats = [
 
 export default function About() {
   const t = useTranslations('about');
-  const locale = useLocale();
-  const cvUrl = getCvUrl(locale);
 
   return (
     <section id="about" className="relative py-24 lg:py-32">
@@ -55,15 +53,10 @@ export default function About() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.4}>
-              <a
-                href={cvUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
+              <Link href="/cv" className="btn btn-primary">
                 <FileText className="w-4 h-4" />
                 {t('downloadCv')}
-              </a>
+              </Link>
             </AnimatedSection>
           </div>
 
