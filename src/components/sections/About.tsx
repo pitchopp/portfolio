@@ -1,13 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import { FileText, Briefcase, Rocket, Award, Users } from 'lucide-react';
 import AnimatedSection, { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-import { CV_URL } from '@/lib/constants';
+import { getCvUrl } from '@/lib/constants';
 
 const stats = [
-  { key: 'years', icon: Briefcase, value: '9+' },
+  { key: 'years', icon: Briefcase, value: '10+' },
   { key: 'saas', icon: Rocket, value: '3' },
   { key: 'certifications', icon: Award, value: '5' },
   { key: 'mentored', icon: Users, value: '50+' },
@@ -15,6 +15,8 @@ const stats = [
 
 export default function About() {
   const t = useTranslations('about');
+  const locale = useLocale();
+  const cvUrl = getCvUrl(locale);
 
   return (
     <section id="about" className="relative py-24 lg:py-32">
@@ -54,7 +56,7 @@ export default function About() {
 
             <AnimatedSection delay={0.4}>
               <a
-                href={CV_URL}
+                href={cvUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"

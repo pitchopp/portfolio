@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Amine Sghir - AI Engineer & Data Specialist",
-    "description": "Portfolio of Amine Sghir, AI Engineer & Data Specialist with 9+ years of experience in Python, LLM, Cloud and Backend. Expert in generative AI and data pipelines."
+    "description": "Portfolio of Amine Sghir, AI Engineer & Data Specialist with 10+ years of experience in Python, LLM, Cloud and Backend. Expert in generative AI and data pipelines."
   },
   "nav": {
     "about": "About",
@@ -27,7 +27,7 @@
       "line2": "one line of code at a time"
     },
     "description": {
-      "p1": "AI & Data Engineer with 9+ years of experience, I design intelligent LLM-based systems, cloud data pipelines and high-performance Python backends.",
+      "p1": "AI & Data Engineer with 10+ years of experience, I design intelligent LLM-based systems, cloud data pipelines and high-performance Python backends.",
       "p2": "Specialized in generative AI and distributed architectures, I founded 3 SaaS products and helped numerous companies in their data-driven transformation. My expertise also covers full-stack web development."
     },
     "downloadCv": "Download CV",
@@ -99,7 +99,7 @@
       "line1": "Professional",
       "line2": "Journey"
     },
-    "subtitle": "9+ years of experience in AI, data engineering, Python and cloud architectures.",
+    "subtitle": "10+ years of experience in AI, data engineering, Python and cloud architectures.",
     "current": "Current",
     "viewFullCv": "View Full CV",
     "items": {

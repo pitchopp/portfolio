@@ -6,8 +6,26 @@ export const SOCIAL_LINKS = {
   phone: '+33 6 95 70 26 00',
 } as const;
 
-// CV Link (Canva)
-export const CV_URL = 'https://www.canva.com/design/DAGhc-kf0Og/9oCvSqK-lP5TLfhsmhfwVw/view';
+// CV exports — PDFs are stored in /public/cv/
+// Naming convention: cv-{variant}-{lang}-{format}.pdf
+//   variant: 'a-llm' (AI/LLM Engineer) | 'b-data' (Data Engineer)
+//   lang: 'fr' | 'en'
+//   format: '1p' (ATS, 1 page, no photo) | '2p' (detailed, 2 pages, with photo)
+export type CvVariant = 'a-llm' | 'b-data';
+export type CvFormat = '1p' | '2p';
+export type CvLang = 'fr' | 'en';
+
+export function getCvUrl(
+  locale: string,
+  variant: CvVariant = 'a-llm',
+  format: CvFormat = '2p',
+): string {
+  const lang: CvLang = locale === 'en' ? 'en' : 'fr';
+  return `/cv/cv-${variant}-${lang}-${format}.pdf`;
+}
+
+// Default CV (most-likely entry point) — kept for backward compat
+export const CV_URL = getCvUrl('fr');
 
 // Location
 export const LOCATION = {
@@ -55,12 +73,12 @@ export const SKILL_CATEGORIES = [
 
 // Experience items (keys match translation file)
 // Strict reverse chronological order
+// Note: credit_agricole retiré (peu pertinent pour le positionnement actuel)
 export const EXPERIENCE_ITEMS = [
   { key: 'sodexo', current: true },
   { key: 'engie_gems', current: false },
   { key: 'klaimy', current: false },
   { key: 'openclassrooms', current: true },
-  { key: 'credit_agricole', current: false },
   { key: 'engie_mastermind', current: false },
   { key: 'lyxor', current: false },
   { key: 'visian', current: false },
